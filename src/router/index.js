@@ -34,10 +34,12 @@ const routes = [
 			path: '',
 			component: home,
 			meta: [],
+
 		},{
 			path: '/addShop',
 			component: addShop,
 			meta: ['添加数据', '添加商铺'],
+			//meta是路由原信息,简单来说就是每个路由上携带信息
 		},{
 			path: '/addGoods',
 			component: addGoods,
